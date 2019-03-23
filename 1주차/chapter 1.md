@@ -265,25 +265,30 @@ Computer common knowledge
 > * 1960년 후반 : 하드웨어 비용은 감소하나 소프트웨어 비용은 증가하는데 프로그래머의 생산성 향상은 적었고 컴퓨터에 해결되는 문제의 규모는 커지면서 하향식 설계와 단계적 세분화라는 방법론이 등장했다. 이 당시 사용되는 언어의 주요 결함은 타입 검사의 불안전성과 제어문의 부적절성(goto)이었다.
 > * 1970년 : 프로세스지향 프로그램 설계 방법론에서 데이터지향 프로그램 설계 방법론으로 변화, 추상화 데이터 타입 사용
 > * 1980년 : 객체지향 설계(데이터 추상화 + 상속 + 동적 바인딩)
-
 ex)smalltalk 
-언어 부류
-명령형 언어
+
+##### 언어 부류 #####
+**명령형 언어**
 명령형 언어(프로시저지향)에서 객체지향 프로그래밍을 지원하기 위하여 c와 java의 표현식(variables), 배정문(assignment statements), 제어문(iteration)은 거의 동일하다.
-GUI를 생성할 수 있는 비주얼 언어
-스크립트 언어
-EX) C, java, perl, javascript, visual basic .net, c++
-함수형 언어(applicative, functional)
-주요 계산 표현 수단인 주어진 매개변수에 함수를 적용하는 언어
-ex)LISP, Scheme, ML, F#
-논리형 언어
-규칙-기반 언어이다. 특정 순서 없이 명세되며, 요구된 결과에 맞춰 실행 순서를 선택한다.
-ex) Prolog
-마크업/하이브리드 언어
-ex) XHTML, XML, JSTL, XSLT 프로그래밍을 돕기 위해 만들어졌다.
 
-프로그래밍 언어 평가 기준(language evaluation criteria)는 언어 설계를 위한 프레임워크를 제공한다.(설계 절충)
+**GUI를 생성할 수 있는 비주얼 언어**
 
+**스크립트 언어**
+EX) C, java, perl, javascript, visual basic .net, c++  
+
+**함수형 언어(applicative, functional)**
+주요 계산 표현 수단인 주어진 매개변수에 함수를 적용하는 언어  
+ex)LISP, Scheme, ML, F#  
+
+**논리형 언어**
+규칙-기반 언어이다. 특정 순서 없이 명세되며, 요구된 결과에 맞춰 실행 순서를 선택한다.  
+ex) Prolog  
+
+**마크업/하이브리드 언어**
+ex) XHTML, XML, JSTL, XSLT 프로그래밍을 돕기 위해 만들어졌다.  
+  
+프로그래밍 언어 평가 기준(language evaluation criteria)는 언어 설계를 위한 프레임워크를 제공한다.(설계 절충)  
+   
 **1. 신뢰성(reliability) vs 실행 비용(cost of execution)**
 Java 언어는 배열 첨자들이 모두 적법한 범위에 속하는지 참조 검사가 되어야 한다. 이는 실행 비용을 증가시키지만 신뢰성을 증가시키기에 둘이 상반된다.
 
