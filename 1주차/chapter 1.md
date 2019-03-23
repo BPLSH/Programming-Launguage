@@ -168,7 +168,7 @@ Chapter 1
 	* 데이터 처리(Data Process) 산술 및 논리장치(ALU)에서 데이터에 대한 산술적 혹은 논리적 연산 수행한다.
 	* 데이터 쓰기(Data Store) 데이터 처리가　끝난 수행 결과를 메모리가 저장한다.
 
- ### **cpu = control unit +alu+ register(cpu의 임시기억장치) ###
+### **cpu = control unit +alu+ register(cpu의 임시기억장치)** ###
 
 ### **명령어 사이클(Instruction cycle)** ###  
 > 명령어 인출(인출 사이클) + 명령어 실행(실행 사이클)
@@ -314,7 +314,7 @@ ex) c, cobol, ada와 같은 언어들은 컴파일러 사용
 일반적으로 하나의 프로그램은 여러 개의 오브젝트 파일과 공용 라이브러리로 조합이 되며, 컴퓨터가 실행할 수 있도록 하나의 프로그램을 완성하기 위한 작업을 링킹(linking)이라고 부른다. 결국, 컴파일 과정(기계어로 변환)과 링킹 과정(오브젝트 파일을 라이브러리와 합쳐 하나의 프로그램)을 거치면서 실행 파일(exe)이 되는 것이다. 이는 링커(linker)가 수행한다.
 완성된 파일(exe)을 실행하면 컴퓨터는 해당 프로그램의 내용을 메모리에 적재(load)시키고, 프로그램을 수행한다. 이는 로더(loader)가 수행한다.
 
-폰 노이만 병목(Von Neumann Bottleneck)
+### **폰 노이만 병목(Von Neumann Bottleneck)** ###
 기억장소(메모리)와 프로세서(cpu)를 연결(폰 노이만 병목)하는 속도는 보통 컴퓨터의 속도를 결정한다.
 언어에 대한 가상 기계를 제공한다.
 -순수해석(pure interpretation)
@@ -336,8 +336,8 @@ ex)#include myLib.c
    #define max(a,b) ((a)>(b)?(a):(b))
  
 
-프로그래밍 환경(Programming Environments)
+### **프로그래밍 환경(Programming Environments)** ###
 소프트웨어를 개발하는데 개발언어 뿐만 아니라 프로그래밍 환경도 굉장히 중요하다. 프로그래밍 환경은 개발에 사용되는 도구들의 모임인데 사용자 인터페이스를 통하여 사용 가능한 통합된 도구들로 구성되어 소프트웨어를 개발하는데 사용되면 개발하는데 유용하다.
 ex)unix : 다양한 언어를 사용한 소프트웨어의 생산과 유지보수를 위한 강력한 지원 도구를 제공한다. GUI(graphical user interface)를 통해서 사용된다.
-Borland JBuilder : Java 개발을 위해서 하나로 통합된 프로그래밍 환경이다. 그래픽 인터페이스를 통하여 제공된다.
-Visual Studio.NET : 윈도우 인터페이스를 통해서 제공된다.
+_Borland JBuilder_ : Java 개발을 위해서 하나로 통합된 프로그래밍 환경이다. 그래픽 인터페이스를 통하여 제공된다.
+_Visual Studio.NET_ : 윈도우 인터페이스를 통해서 제공된다.
