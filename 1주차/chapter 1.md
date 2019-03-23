@@ -288,7 +288,8 @@ ex) Prolog
 ex) XHTML, XML, JSTL, XSLT 프로그래밍을 돕기 위해 만들어졌다.  
   
 프로그래밍 언어 평가 기준(language evaluation criteria)는 언어 설계를 위한 프레임워크를 제공한다.(설계 절충)  
-   
+ 
+--- 
 **1. 신뢰성(reliability) vs 실행 비용(cost of execution)**
 Java 언어는 배열 첨자들이 모두 적법한 범위에 속하는지 참조 검사가 되어야 한다. 이는 실행 비용을 증가시키지만 신뢰성을 증가시키기에 둘이 상반된다.
 
